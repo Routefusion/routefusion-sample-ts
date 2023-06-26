@@ -17,7 +17,9 @@ It should be noted that in all cases `personal` wallets and beneficiaries are us
 
 ## Requirements
 
-This implementation requires `npm` and `node` to be installed on your environment. Please see the [npm docs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for installation instructions.
+This implementation requires `npm` and `node` to be installed on your environment.
+
+Please see the [npm docs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for installation instructions.
 
 ## Get Started
 
@@ -40,6 +42,7 @@ A simple command line interface is provided to perform various operations.
 ### Data Command
 
 `npm run data`
+
 `npm run data types=users,entities,wallets,beneficiaries,transfers`
 
 Generates a json file in the `data` directory that contains all the data belonging to your organization.
@@ -49,6 +52,7 @@ The `types=` argument accepts a comma delimitated list of object types to includ
 ### Requirements Command
 
 `npm run requirements country=US currency=USD`
+
 `npm run requirements country=US bank=US currency=USD`
 
 Generates a json file in the `data` directory that contains the required fields to create a personal beneficiary for the provided country/currency tuple.
