@@ -1,0 +1,8 @@
+fromCurrency,toCurrency,amount,purpose,reference
+USD,USD,200.00,payment,ref-00
+EUR,EUR,200.00,payment,ref-01
+GBP,GBP,200.00,payment,ref-02
+MXN,MXN,200.00,payment,ref-03
+CAD,CAD,200.00,payment,ref-04
+USD,CAD,200.00,payment,ref-05
+USD,MXN,200.00,payment,ref-06

@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# Data directory
+data/*-*.json
+
+# dotenv environment variable files
+.env
+.env.sandbox
+.env.prod
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
